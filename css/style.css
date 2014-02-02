@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+
 header {
 }
 
@@ -13,14 +15,16 @@ header h1 {
 }
 
 header img {
-    width:100%   
+    width:95%;
+    margin: 0 2.5% 0 2.5%;
 }
 
 header nav {
     background-color: #48D1CC;
     color: #ffffff;
-    font-family:sans-serif;
-    font-weight: 300;
+    font-family: bebas-neue;
+    font-weight: 900;
+    font-size: 24px;
     text-align: center;
     text-transform:lowercase;
     padding: 10px;
@@ -57,37 +61,34 @@ article {
     clear:both;
     padding: 0 10px 0 10px;
     width:80%;
-    margin:0 auto 0 auto
+    margin:0 auto 0 auto;
 }
 
 article h1 {
-    font-family: "Avenir", "Helvetica", sans-serif;
+    font-family: raleway, sans-serif;
+    font-weight:300;
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 article h2 {
     font-size: 24px;
     line-height: 30px;
     margin-top:10px;
-    font-family:monospace;
+    font-family: bebas-neue; 
 }
 
-aside {
-    width:47.5%;
-    background-color:#000000;
-    float: right;
-    margin: 0 0 10px 5%;
-}
-
- p{
+p {
     margin-bottom: 16px;
-    font-family:georgia;
+    font-family: sans-serif;
+    font-weight:200;
+    color:#383838
 }
 
 footer {
     padding: 0 10px 0 10px; 
     clear:both;
+    font-size:10px;
 }
 
 @media screen and (max-width: 600px) {
