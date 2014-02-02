@@ -1,3 +1,112 @@
-h1 {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+}
+
+header h1 {
+    text-indent: -10000px;
+    height: 0px
+}
+
+header img {
+    width:100%   
+}
+
+header nav {
+    background-color: #48D1CC;
+    color: #ffffff;
+    font-family:sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-transform:lowercase;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    width: 95%
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+header a:hover {
+    color: #eeeeee;
+}
+
+header a:active {
+    text-decoration:underline;
+}
+
+header a + a {
+    border-left: 1px solid #ffffff;
+    padding-left: 8px;   
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+article {
+    clear:both;
+    padding: 0 10px 0 10px;
+    width:80%;
+    margin:0 auto 0 auto
+}
+
+article h1 {
     font-family: "Avenir", "Helvetica", sans-serif;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+article h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top:10px;
+    font-family:monospace;
+}
+
+aside {
+    width:47.5%;
+    background-color:#000000;
+    float: right;
+    margin: 0 0 10px 5%;
+}
+
+ p{
+    margin-bottom: 16px;
+    font-family:georgia;
+}
+
+footer {
+    padding: 0 10px 0 10px; 
+    clear:both;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        text-align:center
+    }
+    
+    header h1 {
+        text-align:center; 
+        float:none;
+    }
+    
+    nav {
+        width:90%;
+        margin-left: 5%;
+    }
+    
+    article {
+        clear:both; 
+    }
+    
 }
