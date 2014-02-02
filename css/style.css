@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-
-
-header {
-}
-
 header h1 {
     text-indent: -10000px;
     height: 0px
@@ -38,19 +33,14 @@ header a {
     margin-right: 5px;
 }
 
-header a:hover {
-    color: #eeeeee;
-}
+header a:hover { color: #eeeeee;}
 
-header a:active {
-    text-decoration:underline;
-}
+header a:active { text-decoration:underline;}
 
 header a + a {
     border-left: 1px solid #ffffff;
     padding-left: 8px;   
 }
-
 
 body {
     font-size: 16px;
@@ -75,7 +65,8 @@ article h2 {
     font-size: 24px;
     line-height: 30px;
     margin-top:10px;
-    font-family: bebas-neue; 
+    font-family: bebas-neue;
+    color:#e14f4f;
 }
 
 p {
@@ -91,6 +82,21 @@ h2 + p:first-letter {
     font-weight:300;
 }
 
+div {
+    float:left;
+    margin-left:50px
+}
+
+div h3 {
+    margin-top:10px;
+}
+
+div p {
+    margin-top:3px;
+    font-size:12px;
+    text-align:center;
+}
+
 footer {
     padding: 0 10px 0 10px; 
     clear:both;
@@ -101,19 +107,21 @@ footer {
     header {
         text-align:center
     }
-    
     header h1 {
         text-align:center; 
         float:none;
     }
-    
     nav {
         width:90%;
         margin-left: 5%;
     }
-    
     article {
         clear:both; 
     }
     
+    div {
+        float:none;
+        margin-left:0;
+    }
+
 }
