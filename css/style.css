@@ -59,6 +59,7 @@ article h1 {
     font-weight:300;
     font-size: 36px;
     margin-top: 20px;
+    color:#383838;
 }
 
 article h2 {
@@ -67,6 +68,7 @@ article h2 {
     margin-top:10px;
     font-family: bebas-neue;
     color:#e14f4f;
+    font-weight:600;
 }
 
 p {
@@ -80,20 +82,22 @@ p {
 h2 + p:first-letter {
     font-size: 24px;
     font-weight:300;
+    color:#aaaaaa
 }
 
-div {
+article div {
     float:left;
-    margin-left:50px;
-    font-family: bebas-neue;    
+    margin-left:50px;    
 }
 
-div h3 {margin-top:10px;}
+article div h3 {
+    margin-top:10px;
+    font-family: bebas-neue;
+}
 
-div p {
+article div p {
     margin-top:3px;
     font-size:12px;
-    text-align:center;
 }
 
 div a {text-decoration:none;}
@@ -106,6 +110,7 @@ footer {
     width:95%;
     margin:10px auto 0 auto;
     border-top: 1px dotted #aaaaaa;
+    text-align:center;
 }
 
 footer nav {
@@ -121,9 +126,17 @@ footer nav a {text-decoration:none;}
 footer p {
     padding-left:10px;
     margin: 0 0 0 0;
+    clear:both;
 }
 
 footer nav a:active {text-decoration:underline;}
+
+footer div {
+    margin: 0 auto 0 auto;
+    text-align:center;
+}
+
+footer div img{height:20px;}
 
 @media screen and (max-width: 600px) {
     header {text-align:center;}
@@ -131,13 +144,18 @@ footer nav a:active {text-decoration:underline;}
         text-align:center; 
         float:none;
     }
-    nav {
+    header nav {
         width:90%;
         margin-left: 5%;
+        font-size:13px;
     }
-    article {clear:both;}
+    article {
+        clear:both;
+        font-size:20px;
+        line-height:32px;
+    }
     
-    div {
+    article div {
         float:none;
         margin-left:0;
     }
