@@ -110,6 +110,32 @@ article a {color:#48D1CC;}
 
 article a:hover{color:#e14f4f;}
 
+aside {
+    clear:left;
+    margin: 5px 24% 5px 24%;
+    width: 50%;
+}
+
+aside img {
+    width: 100%;   
+}
+
+#intro {
+    float:left; 
+    width:45%;
+    margin-right:5%;
+}
+
+#me {
+    float:right;
+    width: 50%;   
+}
+
+#me img {
+    width:100%;
+    margin: 12px 5% 0 0;
+}
+
 footer { 
     clear:both;
     font-size:10px;
@@ -164,6 +190,7 @@ footer div img{height:20px;}
     article div {
         float:none;
         margin-left:0;
+        width:100%;
     }
     
     article h2  {
@@ -174,7 +201,28 @@ footer div img{height:20px;}
         text-align:center;
         margin-top:16px;;
     }
-     
+    section {
+        float:none;
+        clear:both;
+        width:95%;
+        margin:0 5% 0 5%;
     }
-
+    aside {
+        float:none;
+        clear:both;
+        width:95%;
+        margin:0 auto 0 auto;
+    }
+    
+    aside img {
+        width:95%;
+        margin:10px auto 0 auto;
+    }
+    #intro {
+        width: 100%;
+    }
+    
+    #me {
+        width:95%;   
+    }
 }
