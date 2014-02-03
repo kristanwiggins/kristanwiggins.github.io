@@ -141,6 +141,27 @@ p + ul {
     margin: 5px 0 0 10%;
 }
 
+#clips h3 {font-family: bebas-neue;}
+
+#clips p {
+    margin:0 0 5px 0;
+}
+
+#clips {
+    list-style-type:square;
+    color:#48D1CC;
+    margin: 0 0 0 20%;
+}
+
+#alligator {
+    float:left;
+    margin: 100px 5% 100px 5%;
+}
+
+#projects {
+    clear:both;   
+}
+
 footer { 
     clear:both;
     font-size:10px;
