@@ -21,7 +21,7 @@ header img {
 header nav {
     background-color: #48D1CC;
     color: #ffffff;
-    font-family: bebas-neue;
+    font-family: bebas-neue,impact,sans-serif;
     font-weight: 900;
     font-size: 24px;
     text-align: center;
@@ -67,7 +67,7 @@ article h2 {
     font-size: 24px;
     line-height: 30px;
     margin-top:10px;
-    font-family: bebas-neue;
+    font-family: bebas-neue,impact,sans-serif;
     color:#e14f4f;
     font-weight:600;
 }
@@ -92,7 +92,7 @@ article div {
 
 article div h3 {
     margin-top:10px;
-    font-family: bebas-neue;
+    font-family: bebas-neue,impact,sans-serif;
 }
 
 article div p {
@@ -141,7 +141,7 @@ p + ul {
     margin: 5px 0 0 10%;
 }
 
-#clips h3 {font-family: bebas-neue;}
+#clips h3 {font-family: bebas-neue,impact,sans-serif;}
 
 #clips p {
     margin:0 0 5px 0;
@@ -155,7 +155,7 @@ p + ul {
 
 #alligator {
     float:left;
-    margin: 100px 5% 100px 5%;
+    margin: 120px 5% 100px 5%;
 }
 
 #projects {
@@ -172,7 +172,7 @@ footer {
 }
 
 footer nav {
-    font-family: raleway;
+    font-family: raleway, arial, sans-serif;
     text-transform: lowercase;
     width: 95%;
     margin: 0 auto 0 auto;
