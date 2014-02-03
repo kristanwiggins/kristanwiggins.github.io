@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+a {text-decoration:none;}
+
+a:active {text-decoration:underline;}
+
 header h1 {
     text-indent: -10000px;
     height: 0px
@@ -21,7 +25,6 @@ header nav {
     font-weight: 900;
     font-size: 24px;
     text-align: center;
-    text-transform:lowercase;
     padding: 10px;
     margin: 0 auto 0 auto;
     width: 95%
@@ -34,8 +37,6 @@ header a {
 }
 
 header a:hover { color: #eeeeee;}
-
-header a:active { text-decoration:underline;}
 
 header a + a {
     border-left: 1px solid #ffffff;
@@ -82,7 +83,6 @@ p {
 h2 + p:first-letter {
     font-size: 24px;
     font-weight:300;
-    color:#aaaaaa
 }
 
 article div {
@@ -100,9 +100,15 @@ article div p {
     font-size:12px;
 }
 
-div a {text-decoration:none;}
+article ul {
+    list-style-type:none;
+    margin-left:15px;
+    text-align:left;
+}
 
-div a:active {text-decoration:underline;}
+article a {color:#48D1CC;}
+
+article a:hover{color:#e14f4f;}
 
 footer { 
     clear:both;
@@ -158,6 +164,17 @@ footer div img{height:20px;}
     article div {
         float:none;
         margin-left:0;
+    }
+    
+    article h2  {
+        font-size:32px;
+        
+    }
+    article ul li p{
+        text-align:center;
+        margin-top:16px;;
+    }
+     
     }
 
 }
