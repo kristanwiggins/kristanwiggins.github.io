@@ -174,7 +174,11 @@ footer nav {
     text-align:center;
 }
 
-footer nav a {text-decoration:none;}
+footer nav a {
+    text-decoration:none;
+    color:#575757;}
+
+footer nav a:hover {color:#e14f4f;}
 
 footer p {
     padding-left:10px;
@@ -200,7 +204,7 @@ footer div img{height:20px;}
     header nav {
         width:90%;
         margin-left: 5%;
-        font-size:13px;
+        font-size:20px;
     }
     article {
         clear:both;
@@ -216,10 +220,7 @@ footer div img{height:20px;}
     
     article h2  {font-size:32px;}
     
-    article ul li p{
-        text-align:center;
-        margin-top:16px;;
-    }
+    article ul li p{margin-top:16px;}
     
     section {
         float:none;
@@ -227,6 +228,7 @@ footer div img{height:20px;}
         width:95%;
         margin:0;
     }
+    
     aside {
         float:none;
         clear:both;
