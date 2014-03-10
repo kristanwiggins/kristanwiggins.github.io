@@ -19,24 +19,24 @@ header img {
 }
 
 header nav {
-    background-color: #48D1CC;
-    color: #ffffff;
+    border-top: 2px dotted #48D1CC;
+    border-bottom: 2px dotted #48d1cc;
     font-family: bebas-neue,impact,sans-serif;
     font-weight: 900;
     font-size: 24px;
     text-align: center;
-    padding: 10px;
+    padding: 4px;
     margin: 0 auto 0 auto;
     width: 95%
 }
 
 header a {
-    color: #ffffff;
+    color: #7b7d81;
     text-decoration: none;
     margin-right: 5px;
 }
 
-header a:hover { color: #eeeeee;}
+header a:hover { color: #aaaaaa;}
 
 header a + a {
     border-left: 1px solid #ffffff;
@@ -77,7 +77,7 @@ p {
     font-family: sans-serif;
     font-weight:200;
     color:#383838;
-    line-height: 16px;
+    line-height: 18px;
 }
 
 h2 + p:first-letter {
@@ -204,7 +204,7 @@ footer div img{height:20px;}
     header nav {
         width:90%;
         margin-left: 5%;
-        font-size:13px;
+        font-size:18px;
     }
     article {
         clear:both;
