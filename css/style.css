@@ -93,6 +93,8 @@ article p + h3{padding-top: 5px;}
 
 /* These are for the blogs section for the portfolio page*/
 
+div h3{padding-left:0px;}
+
 section + h2 {clear:both;}
 
 article div {
@@ -213,9 +215,13 @@ footer div {
     text-align:center;
 }
 
-footer div img{height:20px;}
+footer div img{height:20px;
+border-radius:3px;}
 
-footer div img:hover {-webkit-transform: scale(1.1,1.1);}
+footer div img:hover {
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1)
+}
 /*^^^I had to google how to do this, but I found it in multiple places so do I have to credit someone?*/
 
 @media screen and (max-width: 500px) {
