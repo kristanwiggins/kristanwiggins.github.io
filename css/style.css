@@ -10,7 +10,7 @@ a:active {text-decoration:underline;}
 
 header h1 {
     text-indent: -10000px;
-    height: 0px
+    height: 0px;
 }
 
 header img {
@@ -19,13 +19,13 @@ header img {
 }
 
 header nav {
-    border-top: 2px dotted #48D1CC;
-    border-bottom: 2px dotted #48d1cc;
+    border-top: 2px solid #48D1CC;
+    border-bottom: 2px solid #48d1cc;
     font-family: bebas-neue,impact,sans-serif;
     font-weight: 900;
     font-size: 24px;
     text-align: center;
-    padding: 4px;
+    padding: 7px;
     margin: 0 auto 0 auto;
     width: 95%
 }
@@ -39,7 +39,7 @@ header a {
 header a:hover { color: #aaaaaa;}
 
 header a + a {
-    border-left: 1px solid #ffffff;
+    border-left: 1px solid #48D1CC;
     padding-left: 8px;   
 }
 
@@ -56,7 +56,7 @@ article {
 }
 
 article h1 {
-    font-family: raleway, sans-serif;
+    font-family: raleway, ra, sans-serif;
     font-weight:300;
     font-size: 36px;
     margin-top: 20px;
@@ -78,13 +78,23 @@ p {
     font-weight:200;
     color:#383838;
     line-height: 18px;
+    padding-left:10px;
 }
 
-h2 + p:first-letter {
-    font-size: 24px;
-    font-weight:300;
+h3 + p {
+    margin-top: 0px;   
 }
 
+article h3 {
+    font-family: bebas-neue;
+    font-weight:200;
+    color:#48d1cc;
+    padding-left:10px;
+}
+
+article p + h3   {
+    padding-top: 5px; 
+}
 article div {
     float:left;
     margin-left:50px;    
@@ -118,15 +128,15 @@ aside {
 
 aside img {width: 100%;}
 
+#me {
+    float:right;
+    width: 50%;
+}
+
 #intro {
     float:left; 
     width:45%;
     margin-right:5%;
-}
-
-#me {
-    float:right;
-    width: 50%;   
 }
 
 #me img {
@@ -136,7 +146,20 @@ aside img {width: 100%;}
 
 p + ul {
     list-style-type:square;
-    margin: 5px 0 0 10%;
+    margin: 5px 0 0 14%;
+}
+
+#alligator {
+    float:left;
+    margin: 100px 2.5% 100px 2.5%;
+    width:10%
+}
+
+#clips {
+    color:#48D1CC;
+    margin: 0 0 0 0%;
+    float:right;
+    width:80%;
 }
 
 #clips h3 {
@@ -144,18 +167,13 @@ p + ul {
     margin:13px 0 0 0;
 }
 
-#clips {
+#clips ul {
     list-style-type:square;
-    color:#48D1CC;
-    margin: 0 0 0 20%;
 }
 
-#alligator {
-    float:left;
-    margin: 100px 5% 100px 5%;
+section + h2 {
+    clear:both;   
 }
-
-#projects {clear:both;}
 
 footer { 
     clear:both;
@@ -195,7 +213,9 @@ footer div {
 
 footer div img{height:20px;}
 
-@media screen and (max-width: 700px) {
+footer div img:hover {-webkit-transform: scale(1.1,1.1);}
+
+@media screen and (max-width: 500px) {
     header {text-align:center;}
     header h1 {
         text-align:center; 
