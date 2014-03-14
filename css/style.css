@@ -21,8 +21,8 @@ header img {
 }
 
 header nav {
-    border-top: 3px double #48D1CC;
-    border-bottom: 3px double #48d1cc;
+    border-top: 2px solid #48D1CC;
+    border-bottom: 2px solid #48d1cc;
     font-family: bebas-neue,impact,sans-serif;
     font-weight: 900;
     font-size: 24px;
