@@ -276,7 +276,7 @@ footer div img:hover {
     article {
         clear:both;
         font-size:16px;
-        line-height:36px;
+        line-height:26px;
     }
     
     article div {
@@ -285,7 +285,7 @@ footer div img:hover {
         width:100%;
     }
     
-    article h2  {font-size:32px;}
+    article h2  {font-size:24px;}
     
     article ul li p{margin-top:16px;}
     
