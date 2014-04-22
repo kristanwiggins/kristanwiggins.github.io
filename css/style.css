@@ -20,32 +20,71 @@ header img {
     margin: 0 2.5% 0 2.5%;
 }
 
-header nav {
+#nav {
     border-top: 2px solid #48D1CC;
     border-bottom: 2px solid #48d1cc;
     font-family: bebas-neue,impact,sans-serif;
     font-weight: 900;
     font-size: 24px;
     text-align: center;
-    padding: 7px;
     margin: 0 auto 0 auto;
     width: 95%
 }
 /*^^^ For fonts, I used an extension in Brackets that gave me javascript for custom fonts*/
 
-header a {
+#nav a {
     color: #7b7d81;
     margin-right: 5px;
 }
 
-header a:hover { color: #aaaaaa;}
-
-
-header a + a {
-    border-left: 1px solid #48D1CC;
-    padding-left: 8px;   
+#nav_wrapper {
+    width:90%;
+    margin: 0 auto;
 }
-/* ^^^I only wanted to put the lines between the nav options, not surrounding them*/
+
+#nav ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+
+#nav ul li {
+    display:inline-block;
+    }
+
+#nav ul li:hover {
+    background-color: #eeeeee;       
+}
+
+#nav ul li a,visited {
+    color:#7b7d81;
+    display:block;
+    padding:10px;
+    text-decoration:none;     
+}
+
+#nav ul li a:hover {
+    color:#aaaaaa;
+    text-decoration:none;
+}
+
+#nav ul li:hover ul {
+    display: block;
+}
+
+#nav ul ul {
+    display:none;
+    position: absolute;
+    background-color:#ffffff;
+    border: 2px solid #48D1CC;
+    border-top:0;
+    font-size:16px;
+}
+
+#nav ul ul li {
+    display:block;
+}
 
 body {
     font-size: 16px;
@@ -223,13 +262,13 @@ footer div img:hover {
 }
 /*^^^I had to google how to do this, but I found it in multiple places so do I have to credit someone?*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     header {text-align:center;}
     header h1 {
         text-align:center; 
         float:none;
     }
-    header nav {
+    header #nav {
         width:90%;
         margin-left: 5%;
         font-size:18px;
