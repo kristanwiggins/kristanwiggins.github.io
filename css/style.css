@@ -156,15 +156,13 @@ p + ul {
 /*These are for the clips part of the portfolio*/
 
 #alligator {
-    float:left;
-    margin: 100px 2.5% 100px 2.5%;
-    width:10%
+    width: 30%;
+    margin: 10px 0 0 40px;
 }
 
 #clips {
     color:#48D1CC;
-    margin: 0 0 0 0%;
-    float:right;
+    margin: 0 0 0 100px;
     width:80%;
 }
 
@@ -175,6 +173,7 @@ p + ul {
 
 #clips ul {
     list-style-type:square;
+    text-indent: -10px;
 }
 
 /*These are the footer*/
@@ -237,8 +236,8 @@ footer div img:hover {
     }
     article {
         clear:both;
-        font-size:20px;
-        line-height:32px;
+        font-size:16px;
+        line-height:36px;
     }
     
     article div {
