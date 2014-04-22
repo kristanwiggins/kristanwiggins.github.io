@@ -110,7 +110,7 @@ article h2 {
 p {
     margin: 12px 0 0 0;
     font-family: raleway, arial, sans-serif;
-    font-weight:200;
+    font-weight:300;
     color:#383838;
     line-height: 18px;
     padding-left:10px;
@@ -169,6 +169,12 @@ aside {
 }
 
 aside img {width: 100%;}
+
+#lightning {
+    display:block;
+    margin: 11px auto 0 auto;
+    width:9%
+}
 
 /*These are for the homepage*/
 #me {
@@ -313,4 +319,11 @@ footer div img:hover {
     #me {width:95%;}
     
     #alligator {display:none;}
+    
+    #clips {
+    margin:0 0 0 32px;}
+    
+    p a {
+        font-weight: 400;
+    }
 }
