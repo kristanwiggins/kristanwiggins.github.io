@@ -110,7 +110,7 @@ article h2 {
 p {
     margin: 12px 0 0 0;
     font-family: raleway, arial, sans-serif;
-    font-weight:300;
+    font-weight:200;
     color:#383838;
     line-height: 18px;
     padding-left:10px;
@@ -220,6 +220,13 @@ p + ul {
     list-style-type:square;
     text-indent: -10px;
 }
+
+#grammar {
+    font-family: raleway, san-serif;
+    color:#383838; 
+    font-weight:300;
+}
+
 
 /*These are the footer*/
 footer { 
