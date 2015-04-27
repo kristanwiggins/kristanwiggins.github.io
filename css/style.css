@@ -16,16 +16,16 @@ header h1 {
 /*^^^I want the header recognized by seo but not seen because I already have my headerimg with the name */
 
 header img {
-    width:95%;
-    margin: 0 2.5% 0 2.5%;
+    width:90%;
+    margin: 0 5% 0 5%;
 }
 
 #nav {
-    border-top: 2px solid #218f8e;
-    border-bottom: 2px solid #218f8e;
+    border-top: 2px solid #01705c;
+    border-bottom: 2px solid #01705c;
     font-family: lato,impact,sans-serif;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 19px;
     text-align: center;
     margin: 0 auto 0 auto;
     width: 95%
@@ -51,6 +51,7 @@ header img {
 
 #nav ul li {
     display:inline-block;
+    padding:9px;
     }
 
 #nav ul li:hover {
@@ -58,9 +59,9 @@ header img {
 }
 
 #nav ul li a,visited {
-    color:#7b7d81;
+    color:#4f4f4f;
     display:block;
-    padding:10px;
+    padding:0;
     text-decoration:none;     
 }
 
@@ -77,7 +78,7 @@ header img {
     display:none;
     position: absolute;
     background-color:#ffffff;
-    border: 2px solid #218f8e;
+    border: 2px solid #01705c;
     border-top:0;
     font-size:16px;
 }
@@ -94,7 +95,7 @@ body {
 article {
     clear:both;
     padding: 0 10px 0 10px;
-    width:80%;
+    width:65%;
     margin:0 auto 0 auto;
 }
 /*This goes for all the titles on each page */
@@ -102,7 +103,7 @@ article h2 {
     font-size: 24px;
     line-height: 30px;
     margin-top:10px;
-    font-family: bebas-neue,impact,sans-serif;
+    font-family: lato,impact,sans-serif;
     color:#e14f4f;
     font-weight:600;
 }
@@ -122,9 +123,9 @@ p em {font-weight:500}
 h3 + p {margin-top: 0px;}
 
 article h3 {
-    font-family: bebas-neue;
+    font-family: lato,impact,sans-serif;
     font-weight:200;
-    color:#218f8e;
+    color:#01705c;
     padding-left:10px;
 }
 
@@ -143,7 +144,7 @@ article div {
 
 article div h3 {
     margin-top:10px;
-    font-family: bebas-neue,impact,sans-serif;
+    font-family: lato,impact,sans-serif;
 }
 
 article div p {
@@ -158,7 +159,7 @@ article h2 + ul {
     text-align:left;
 }
 
-article a {color:#218f8e;}
+article a {color:#01705c;}
 
 article a:hover{color:#e14f4f;}
 
@@ -206,13 +207,13 @@ p + ul {
 }
 
 #clips {
-    color:#218f8e;
+    color:#01705c;
     margin: 0 0 0 100px;
     width:80%;
 }
 
 #clips h3 {
-    font-family: bebas-neue,impact,sans-serif;
+    font-family: lato,impact,sans-serif;
     margin:13px 0 0 0;
 }
 
@@ -284,8 +285,11 @@ footer div img:hover {
     header #nav {
         width:90%;
         margin-left: 5%;
-        font-size:18px;
+        font-size:14px;
     }
+    #nav ul li{
+        padding:0;}
+    
     article {
         clear:both;
         font-size:16px;
