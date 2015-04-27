@@ -23,7 +23,7 @@ header img {
 #nav {
     border-top: 2px solid #218f8e;
     border-bottom: 2px solid #218f8e;
-    font-family: bebas-neue,impact,sans-serif;
+    font-family: lato,impact,sans-serif;
     font-weight: 900;
     font-size: 24px;
     text-align: center;
@@ -33,7 +33,7 @@ header img {
 /*^^^ For fonts, I used an extension in Brackets that gave me javascript for custom fonts*/
 
 #nav a {
-    color: #7b7d81;
+    color: #000000;
     margin-right: 5px;
 }
 
@@ -109,7 +109,7 @@ article h2 {
 
 p {
     margin: 12px 0 0 0;
-    font-family: raleway, arial, sans-serif;
+    font-family: bentham, georgia, serif;
     font-weight:200;
     color:#383838;
     line-height: 18px;
@@ -222,7 +222,7 @@ p + ul {
 }
 
 #grammar {
-    font-family: raleway, san-serif;
+    font-family: bentham, georgia, serif;
     color:#383838; 
     font-weight:300;
 }
@@ -239,7 +239,7 @@ footer {
 }
 
 footer nav {
-    font-family: raleway, arial, sans-serif;
+    font-family: bentham, georgia, serif;
     text-transform: lowercase;
     width: 95%;
     margin: 0 auto 0 auto;
